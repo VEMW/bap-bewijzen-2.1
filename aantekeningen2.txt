@@ -1,0 +1,9 @@
+kast - database
+veldnaam - column
+sql query - zoeken
+indeling a4-tje - schema
+lade - table
+a4-tje - record
+
+
+

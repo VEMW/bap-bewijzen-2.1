@@ -1,0 +1,51 @@
+1 Laravel
+2 Symfony 
+3 Phalcon
+4 FuelPHP
+6 Zend Framework
+7 PHPixie
+8 CakePHP
+9 Yii
+
+
+pros:
+
+efficient
+safe
+free
+
+cons:
+
+je leert de framework niet de taal
+er is een limiet
+je code is public
+
+
+
+eigenschappen:
+grootte
+gewicht
+titel
+
+
+
+hond:
+gewicht
+grootte
+lengte
+
+schuw
+blij
+
+
+telefoon:
+grootte
+apps
+luidsprekers
+batterij
+
+
+game:
+genre
+lengte
+taal
