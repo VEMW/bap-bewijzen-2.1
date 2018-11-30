@@ -28,6 +28,7 @@ Route::get('/data', function(){
     return $data;
 });
 
+
 Route::get('/artikel-op-nummer/nummer-{nummer}', 'ArticleController@showArticle')
     ->where('nummer', '\d+')
     ->name('artikel.opnummer')
@@ -38,7 +39,6 @@ Route::get('/artikel/{naam}{leeftijd}', function ($naam, $leeftijd) {
 })
     ->where('naam', '[a-zA-Z\-]+')
     ->where('leeftijd', '\d+')
-    ->where('artikel.opnaam')
 ;
 
 Route::get('/registratie', 'FormController@showForm')
@@ -46,3 +46,11 @@ Route::get('/registratie', 'FormController@showForm')
 
 Route::post('/registratie',	'FormController@handleForm')
     ->name('registration.form.handle');
+
+Route::get('/bring-me-the-horizon', function () {
+    return view('bringme');
+});
+
+//Functie om naar homepagina te gaan
+
+Route::get('/homepage', 'FormController@homepage');

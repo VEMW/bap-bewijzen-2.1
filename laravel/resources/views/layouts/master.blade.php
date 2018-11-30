@@ -9,18 +9,18 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" href="{{ asset('css/style.css') }}"/>
 
-    <title>Hello, world!</title>
+    <title>BMTH Laravel</title>
 </head>
 <body>
-<div class="container">
-    <header>
-        <h1>Mediacollege Amsterdam</h1>
+        <h1>Bring me the horizon</h1>
+        <header>
         @section('header')
         @show
-        HEADER
-    </header>
+        </header>
+
     <nav>
-        NAVIGATION
+        @section('nav')
+            @show
     </nav>
     <main>
         @yield('content')
@@ -28,7 +28,6 @@
     <footer>
         FOOTER
     </footer>
-</div>
 
 <!-- Optional JavaScript -->
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->

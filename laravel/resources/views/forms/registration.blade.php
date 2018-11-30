@@ -1,12 +1,18 @@
-<?php
-/**
- * Created by PhpStorm.
- * User: vemwi
- * Date: 09/11/2018
- * Time: 20:57
- */
 
-@extends('layouts.master)
+@extends('layouts.master')
+
+@section('header')
+    <h2>Registration</h2>
+
+@endsection
+
+@section('nav')
+
+    <ul>
+        <li><a href="{{Route ('homepagina')}}">Homepagina</a></li>
+    </ul>
+
+@endsection
 
 @section('content')
     <h2>Uw gegevens</h2>
