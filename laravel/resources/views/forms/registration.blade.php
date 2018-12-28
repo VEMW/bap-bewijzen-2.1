@@ -9,7 +9,7 @@
 @section('nav')
 
     <ul>
-        <li><a href="{{Route ('homepagina')}}">Homepagina</a></li>
+        {{--<li><a href="{{Route ('homepagina')}}">Homepagina</a></li>--}}
     </ul>
 
 @endsection
