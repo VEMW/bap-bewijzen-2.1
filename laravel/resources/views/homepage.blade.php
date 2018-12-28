@@ -8,8 +8,8 @@
 
     <ul>
         <li><a href="{{Route ('registratie.form')}}">Registratie</a></li>
-        <li><a href="{{Route ('homepagina')}}">Tour</a></li>
-        <li><a href="{{Route ('homepagina')}}">Over</a></li>
+        {{--<li><a href="{{Route ('homepagina')}}">Tour</a></li>--}}
+        {{--<li><a href="{{Route ('homepagina')}}">Over</a></li>--}}
     </ul>
 
 @endsection
