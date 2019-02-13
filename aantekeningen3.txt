@@ -1,0 +1,11 @@
+Betekenis:
+		
+Authenticatie is het proces waarbij de identiteit van een gebruiker wordt herkend.
+
+Factoren:
+
+Iets dat je weet (zoals een wachtwoord),
+
+Iets dat je hebt (zoals een smartcard), 
+
+Iets dat je bent (zoals een vingerafdruk of een andere biometrische methode).
